@@ -2,6 +2,9 @@
 
 int main()
 {
+#ifdef _WIN32
+    ConfigurarAcentuacaoConsole();
+#endif
     Capacitor resul;
     char opcao, resp = 'S';
     int qtd, qtd_serie, qtd_paralelo;
