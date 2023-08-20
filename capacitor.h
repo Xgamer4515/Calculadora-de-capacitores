@@ -9,14 +9,22 @@ using std::cin;
 using std::strcmp;
 
 #ifdef _WIN32
-	void limparTela() {
-        system("cls");
-    }
-#else
-	void limparTela() {
-        system("clear");
-    }
+#include <Windows.h>
+
+inline void ConfigurarAcentuacaoConsole() {
+    system("chcp 65001 > nul");
+    SetConsoleCP(CP_UTF8);
+    SetConsoleOutputCP(CP_UTF8);
+}
 #endif
+
+inline void LimparTela() {
+#ifdef _WIN32
+    system("cls");
+#else
+    system("clear");
+#endif
+}
 
 struct Capacitor
 {
