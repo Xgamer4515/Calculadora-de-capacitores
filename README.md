@@ -9,19 +9,11 @@ Este é um programa em C++ que calcula a capacitância total de capacitores em d
 
 3.Compile o programa usando o seguinte comando:
 ```
-g++ -o jokenpo main.cpp
-```
-Se você estiver usando um sistema Windows, você pode usar o MinGW para compilar:
-```
-g++ -o jokenpo.exe main.cpp
+g++ *.cpp -o calculadora_capacitores 
 ```
 4.Após a compilação bem-sucedida, execute o programa digitando o seguinte comando:
 ```
-./jokenpo
-```
-No Windows, use o comando:
-```
-jokenpo.exe
+./calculadora_capacitores.exe
 ```
 
 ## Opções do menu
