@@ -1,4 +1,4 @@
-#include "capacitor.cpp"
+#include "capacitor.h"
 
 int main()
 {
