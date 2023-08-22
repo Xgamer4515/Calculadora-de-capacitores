@@ -38,7 +38,7 @@ Após fornecer as informações necessárias, o programa calculará a capacitân
 
 ## Limpar a tela
 
-O programa inclui uma função limparTela() para limpar a tela do console. Essa função utiliza comandos específicos para sistemas operacionais Windows e Linux. Certifique-se de ajustar essa função de acordo com o seu sistema operacional, se necessário.
+O programa inclui uma função limparTela() para limpar a tela do console. Essa função utiliza comandos específicos para sistemas operacionais Windows e baseados em sistema Unix. Certifique-se de ajustar essa função de acordo com o seu sistema operacional, se necessário.
 
 ## Continuar ou sair
 Após calcular a capacitância total, o programa perguntará se você deseja continuar utilizando a calculadora. Digite 'S' ou 's' para continuar ou 'N' ou 'n' para sair do programa.
